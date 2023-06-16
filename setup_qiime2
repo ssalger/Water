@@ -31,7 +31,7 @@ if len(sys.argv) == 2:
 else:
     version = "2023.2"
 
-if float(version) < 2021.8:
+if float(version) < 2022.2:
     pyver = "36"
 else:
     pyver = "38"
